@@ -35,6 +35,45 @@ namespace DeveloperClass_2
 
             //Console.WriteLine(result);
             //Console.WriteLine(a);
+
+            //var s = "22";
+            //var x = "33";
+            //Console.WriteLine(s+x);
+
+            //int vorodi = 0;
+
+            //vorodi = Convert.ToInt32(Console.ReadLine());
+
+            //if ((vorodi % 2 == 0) || (vorodi % 5 == 0))
+            //{
+            //    Console.WriteLine("Adad bar 2 va 5 bakhshpazir ast");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Adad bar 2 va 5 bakhshpazir nist");
+            //}
+
+
+            int vorodi = 0;
+
+            vorodi = Convert.ToInt32(Console.ReadLine());
+
+            if (vorodi % 2 == 0)
+            {
+                Console.WriteLine("Adad bar 2 bakhshpazir ast");
+            }
+            else if (vorodi % 5 == 0)
+            {
+                Console.WriteLine("Adad bar 5 bakhshpazir ast");
+            }
+            else if (vorodi % 7 == 0)
+            {
+                Console.WriteLine("Adad bar 7 bakhshpazir ast");
+            }
+            else
+            {
+                Console.WriteLine("Adad bar 2 va 5 bakhshpazir nist");
+            }
         }
     }
 }
