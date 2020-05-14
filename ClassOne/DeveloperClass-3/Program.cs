@@ -62,6 +62,15 @@ namespace DeveloperClass_3
             int a = 100;
             int b = 20;
             var result = a < b ? "a" : "b";
+
+            if (a < b)
+            {
+                result = "a";
+            }
+            else
+            {
+                result = "b";
+            }
             Console.WriteLine(result);
             //Console.WriteLine(a < b ? "----" : "+++++");
         }
