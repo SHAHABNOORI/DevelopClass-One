@@ -4,6 +4,25 @@ namespace DeveloperClass_6
 {
     class Program
     {
+        //static void SayHello()
+        //{
+        //    Console.WriteLine("Hello World");
+        //}
+
+        //Expression Body
+
+        static void SayHelloVersion() => Console.WriteLine("Hello World");
+
+
+        //static int Add(int numberOne, int numberTwo)
+        //{
+        //    return numberOne + numberTwo;
+        //}
+
+        // Expression Body
+
+        static int AddVersion(int x, int y) => x + y;
+
         static void Main(string[] args)
         {
             //Daneshjoo daneshjoo = new Daneshjoo()
@@ -28,16 +47,65 @@ namespace DeveloperClass_6
 
             //person.PrintPerson();
 
-            Teacher teacher = new Teacher("Shahab Noori Goodarzi");
-            Console.WriteLine(teacher.FullName);
+            //Teacher teacher = new Teacher("Shahab Noori Goodarzi");
+            //Console.WriteLine(teacher.FullName);
 
-            Teacher teacherRiazi = new Teacher()
+            //Teacher teacherRiazi = new Teacher()
+            //{
+            //    FullName = "Hamidreza Moini"
+            //};
+
+            //Console.WriteLine(teacherRiazi.FullName);
+
+
+            //Student st = new Student()
+            //{
+            //    Id = 2050,
+            //    FirstName = "Shahab",
+            //    LastName = "Noori Goodarzi",
+            //    MobileNumber = "09359167820",
+            //    Age = 0
+            //};
+            //st.Address = "---------------"; ERROR
+
+            //Console.WriteLine($"{st.Id} {st.FirstName} {st.LastName} {st.MobileNumber} ");
+
+            //var result = AddVersion(2, 10);
+            //Console.WriteLine(result);
+
+            //Author author = new Author()
+            //{
+            //    Id = 2006,
+            //    FirstName = "Shahab",
+            //    LastName = "Noori Goodarzi",
+            //    Book = new Book()
+            //    {
+            //        Id = 60021,
+            //        Isbn = "1245a",
+            //        Title = "How to code CSharp"
+            //    }
+            //};
+
+            Book csharpBook = new Book()
             {
-                FullName = "Hamidreza Moini"
+                Id = 60021,
+                Isbn = "1245a",
+                Title = "How to code CSharp"
             };
-            Console.WriteLine(teacherRiazi.FullName);
 
+            Author author = new Author()
+            {
+                Id = 2006,
+                FirstName = "Shahab",
+                LastName = "Noori Goodarzi"
+            };
 
+            author.Book = csharpBook;
+            Console.WriteLine($"{author.FirstName} {author.LastName} write {author.Book?.Title}");
         }
     }
 }
+
+//Initialize
+
+// Syntax Sugar => Property
