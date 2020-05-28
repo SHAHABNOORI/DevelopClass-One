@@ -86,6 +86,35 @@ namespace DeveloperClass_6
             //    }
             //};
 
+            //Book csharpBook = new Book()
+            //{
+            //    Id = 60021,
+            //    Isbn = "1245a",
+            //    Title = "How to code CSharp"
+            //};
+
+            //Author author = new Author()
+            //{
+            //    Id = 2006,
+            //    FirstName = "Shahab",
+            //    LastName = "Noori Goodarzi"
+            //};
+
+            //author.Book = csharpBook;
+            //Console.WriteLine($"{author.FirstName} {author.LastName} write {author.Book?.Title}");
+
+            //int[] numbers = { 1, 2, 3, 4, 5, 6, 7 };
+            ////numbers[8] = 1212; ERRoR
+
+            //numbers[3] = 265;
+            //Console.WriteLine(numbers[3]);
+
+            //int[] nums = new int[6];
+
+            //nums[3] = 2564;
+
+            //Console.WriteLine(nums[3]);
+
             Book csharpBook = new Book()
             {
                 Id = 60021,
@@ -93,18 +122,40 @@ namespace DeveloperClass_6
                 Title = "How to code CSharp"
             };
 
-            Author author = new Author()
+            Book htmlBook = new Book()
+            {
+                Id = 60021,
+                Isbn = "1245a",
+                Title = "How to code Html"
+            };
+
+            Book cPlusPlusBook = new Book()
+            {
+                Id = 60021,
+                Isbn = "1245a",
+                Title = "How to code C++"
+            };
+
+            Author author = new Author(2)
             {
                 Id = 2006,
                 FirstName = "Shahab",
                 LastName = "Noori Goodarzi"
             };
 
-            author.Book = csharpBook;
-            Console.WriteLine($"{author.FirstName} {author.LastName} write {author.Book?.Title}");
+            author.Books[0] = csharpBook;
+            author.Books[1] = htmlBook;
+            author.Books[2] = cPlusPlusBook;
+
+            Console.WriteLine($"{author.FirstName} {author.LastName} write {author.Books[1].Title}");
+
         }
     }
 }
+
+//Collection
+
+//Array
 
 //Initialize
 
