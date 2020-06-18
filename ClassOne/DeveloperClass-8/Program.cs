@@ -9,14 +9,35 @@ namespace DeveloperClass_8
     {
         static void Main(string[] args)
         {
-            IMessageSender s = new TelegramSender();
+            Daneshjoo daneshjoo = new Daneshjoo()
+            {
+                FirstName = "Shahab",
+                LastName = "Noori Goodarzi",
+                DaneshjooId = Guid.NewGuid()
+            };
 
-            SendMessageToCustomer(s, "Shahab", "Noori Goodarzi");
+            Console.WriteLine(daneshjoo.ShowMelliCode());
+            
+            //PracticeInterfaces();
 
             //WorkWithGenericList();
 
             //SampleWithGenericList();
         }
+
+        private static void PracticeInterfaces()
+        {
+            IMessageSender sender = new TelegramSender();
+
+            //SendMessageToCustomer(new SmsSender(), "Shahab","Noori Goodarzi");
+
+            SendMessageToCustomer(sender, "Shahab", "Noori Goodarzi");
+        }
+
+        //public static void SendMessageToCustomer(SmsSender mailSender, string firstName, string lastName)
+        //{
+        //    mailSender.SendMessage(firstName, lastName);
+        //}
 
         public static void SendMessageToCustomer(IMessageSender sender, string firstName, string lastName)
         {
