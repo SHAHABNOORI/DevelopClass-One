@@ -9,16 +9,16 @@ namespace DeveloperClass_8
     {
         static void Main(string[] args)
         {
-            Daneshjoo daneshjoo = new Daneshjoo()
-            {
-                FirstName = "Shahab",
-                LastName = "Noori Goodarzi",
-                DaneshjooId = Guid.NewGuid()
-            };
+            //Daneshjoo daneshjoo = new Daneshjoo()
+            //{
+            //    FirstName = "Shahab",
+            //    LastName = "Noori Goodarzi",
+            //    DaneshjooId = Guid.NewGuid()
+            //};
 
-            Console.WriteLine(daneshjoo.ShowMelliCode());
-            
-            //PracticeInterfaces();
+            //Console.WriteLine(daneshjoo.ShowMelliCode());
+
+            PracticeInterfaces();
 
             //WorkWithGenericList();
 
@@ -27,7 +27,7 @@ namespace DeveloperClass_8
 
         private static void PracticeInterfaces()
         {
-            IMessageSender sender = new TelegramSender();
+            IMessageSender sender = new SmsSender();
 
             //SendMessageToCustomer(new SmsSender(), "Shahab","Noori Goodarzi");
 
