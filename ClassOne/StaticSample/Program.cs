@@ -12,7 +12,6 @@ namespace StaticSample
             Console.WriteLine(calculatorTwo.Mul(2, 5));
 
             Console.WriteLine(CalculatorTwo.Minus(100, 50));
-
         }
     }
 }
