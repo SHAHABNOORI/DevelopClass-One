@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseDelegateInActionSample",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticSample", "StaticSample\StaticSample.csproj", "{A89D3A04-D7CF-4ED0-9B06-6CD8FDE975EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{861B283F-FAC6-4D97-A3A0-B8E1494A406D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{861B283F-FAC6-4D97-A3A0-B8E1494A406D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuplesInAction", "TuplesInAction\TuplesInAction.csproj", "{D9903022-5343-441F-B5BA-DA7802053D49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{861B283F-FAC6-4D97-A3A0-B8E1494A406D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{861B283F-FAC6-4D97-A3A0-B8E1494A406D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{861B283F-FAC6-4D97-A3A0-B8E1494A406D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9903022-5343-441F-B5BA-DA7802053D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9903022-5343-441F-B5BA-DA7802053D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9903022-5343-441F-B5BA-DA7802053D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9903022-5343-441F-B5BA-DA7802053D49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
