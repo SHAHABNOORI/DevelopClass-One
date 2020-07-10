@@ -37,15 +37,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractionSample", "Abstra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSample", "InterfaceSample\InterfaceSample.csproj", "{43A1255C-4E52-4F8D-9CAC-FA75B42296F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleInterface", "MultipleInterface\MultipleInterface.csproj", "{96C46F0D-D7B3-4C28-B396-025FAF3F8242}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleInterface", "MultipleInterface\MultipleInterface.csproj", "{96C46F0D-D7B3-4C28-B396-025FAF3F8242}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymProject", "GymProject\GymProject.csproj", "{C5B1AE0F-CC82-4BA2-BEB4-CF362F081E4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymProject", "GymProject\GymProject.csproj", "{C5B1AE0F-CC82-4BA2-BEB4-CF362F081E4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateInActionSample", "DelegateInActionSample\DelegateInActionSample.csproj", "{F782A6DC-B26F-4ED5-BDFD-392F31F65884}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateInActionSample", "DelegateInActionSample\DelegateInActionSample.csproj", "{F782A6DC-B26F-4ED5-BDFD-392F31F65884}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseDelegateInActionSample", "UseDelegateInActionSample\UseDelegateInActionSample.csproj", "{32412F1D-1632-4DF1-9949-47408092CB12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseDelegateInActionSample", "UseDelegateInActionSample\UseDelegateInActionSample.csproj", "{32412F1D-1632-4DF1-9949-47408092CB12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticSample", "StaticSample\StaticSample.csproj", "{A89D3A04-D7CF-4ED0-9B06-6CD8FDE975EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticSample", "StaticSample\StaticSample.csproj", "{A89D3A04-D7CF-4ED0-9B06-6CD8FDE975EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{861B283F-FAC6-4D97-A3A0-B8E1494A406D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{A89D3A04-D7CF-4ED0-9B06-6CD8FDE975EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A89D3A04-D7CF-4ED0-9B06-6CD8FDE975EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A89D3A04-D7CF-4ED0-9B06-6CD8FDE975EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861B283F-FAC6-4D97-A3A0-B8E1494A406D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861B283F-FAC6-4D97-A3A0-B8E1494A406D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861B283F-FAC6-4D97-A3A0-B8E1494A406D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861B283F-FAC6-4D97-A3A0-B8E1494A406D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
