@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <Reference Include="DelegateInActionSample">
-      <HintPath>..\..\..\..\..\Desktop\DelegateInActionSample.dll</HintPath>
+      <HintPath>..\DelegateInActionSample\bin\Debug\netcoreapp3.1\DelegateInActionSample.dll</HintPath>
     </Reference>
   </ItemGroup>
 

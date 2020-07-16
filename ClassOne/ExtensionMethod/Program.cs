@@ -17,7 +17,6 @@ namespace ExtensionMethod
             WithDelegate();
 
 
-
         }
         private static void WithDelegate()
         {

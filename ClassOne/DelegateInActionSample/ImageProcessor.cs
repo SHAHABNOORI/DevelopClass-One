@@ -37,5 +37,10 @@ namespace DelegateInActionSample
             filters.ApplyContrast(image);
             filters.Resize(image);
         }
+
+        //public  void PrintPhoto()
+        //{
+        //    Console.WriteLine($"Photo is Printing");
+        //}
     }
 }
