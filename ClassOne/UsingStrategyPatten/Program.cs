@@ -1,19 +1,20 @@
 ﻿using System;
 using StrategyPattern.Models;
-using StrategyPattern.Pattern;
-using UsingStrategyPattern;
 
-class Program
+namespace UsingStrategyPattern
 {
-    static void Main(string[] args)
+    class Program
     {
-        Customer customerOne = new Customer
+        static void Main(string[] args)
         {
-            FullName = "Shahab Noori Goodarzi",
-            Type = CustomerType.Iron
-        };
+            Customer customerOne = new Customer
+            {
+                FullName = "Shahab Noori Goodarzi",
+                Type = CustomerType.Iron
+            };
 
-        Order orderOne = new Order(50000, customerOne, new PlatCalculator());
-        Console.WriteLine(orderOne.GetFinalUsingPattern());
+            Order orderOne = new Order(50000, customerOne, new PlatCalculator());
+            Console.WriteLine(orderOne.GetFinalUsingPattern());
+        }
     }
 }
