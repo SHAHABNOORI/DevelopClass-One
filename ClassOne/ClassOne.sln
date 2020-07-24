@@ -53,11 +53,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuplesInAction", "TuplesInA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncDemo", "AsyncDemo\AsyncDemo.csproj", "{0B684EF7-F653-4845-A972-7B177568F901}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidInAction", "SolidInAction\SolidInAction.csproj", "{EB165534-2993-4FC3-A01E-34F1D2941EB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolidInAction", "SolidInAction\SolidInAction.csproj", "{EB165534-2993-4FC3-A01E-34F1D2941EB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePatternSample", "FacadePatternSample\FacadePatternSample.csproj", "{9CAFFA25-F88A-481D-8D17-14CF1E8AAB8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadePatternSample", "FacadePatternSample\FacadePatternSample.csproj", "{9CAFFA25-F88A-481D-8D17-14CF1E8AAB8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{9D0DB103-0C7F-4213-A2DD-B696A345EC64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{9D0DB103-0C7F-4213-A2DD-B696A345EC64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallByRefVsCallByValue", "CallByRefVsCallByValue\CallByRefVsCallByValue.csproj", "{4F4AC88D-53FB-4EA9-B179-DC581F64C965}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{9D0DB103-0C7F-4213-A2DD-B696A345EC64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D0DB103-0C7F-4213-A2DD-B696A345EC64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D0DB103-0C7F-4213-A2DD-B696A345EC64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F4AC88D-53FB-4EA9-B179-DC581F64C965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F4AC88D-53FB-4EA9-B179-DC581F64C965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F4AC88D-53FB-4EA9-B179-DC581F64C965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F4AC88D-53FB-4EA9-B179-DC581F64C965}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
