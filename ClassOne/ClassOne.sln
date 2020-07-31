@@ -67,7 +67,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "Strategy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingStrategyPattern", "UsingStrategyPatten\UsingStrategyPattern.csproj", "{A015235E-FAEB-4682-8613-12F4EA5BF971}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "MementoPattern\MementoPattern.csproj", "{110AD11E-8100-4348-A960-69D73D843E10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern", "MementoPattern\MementoPattern.csproj", "{110AD11E-8100-4348-A960-69D73D843E10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{634193CE-F44B-4C5A-AFC9-11AC1710B61C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +209,10 @@ Global
 		{110AD11E-8100-4348-A960-69D73D843E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{110AD11E-8100-4348-A960-69D73D843E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{110AD11E-8100-4348-A960-69D73D843E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634193CE-F44B-4C5A-AFC9-11AC1710B61C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634193CE-F44B-4C5A-AFC9-11AC1710B61C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634193CE-F44B-4C5A-AFC9-11AC1710B61C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634193CE-F44B-4C5A-AFC9-11AC1710B61C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
